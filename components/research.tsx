@@ -1,10 +1,4 @@
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardDescription,
-  CardContent,
-} from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
 
 interface Publication {
@@ -57,11 +51,11 @@ const publications: Publication[] = [
   },
 ];
 
-const ongoingResearch = [
-  "Exploring advanced techniques in medical image analysis using deep learning",
-  "Developing novel approaches for AI-generated content detection",
-  "Investigating the application of NLP in healthcare diagnostics",
-];
+// const ongoingResearch = [
+//   "Exploring advanced techniques in medical image analysis using deep learning",
+//   "Developing novel approaches for AI-generated content detection",
+//   "Investigating the application of NLP in healthcare diagnostics",
+// ];
 
 export function Research() {
   return (
