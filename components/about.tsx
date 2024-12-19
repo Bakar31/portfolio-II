@@ -1,25 +1,31 @@
 export function About() {
   return (
     <section id="about" className="py-20">
-      <h2 className="mb-8 text-3xl font-bold text-center">About Me</h2>
+      <h2 className="mb-8 text-3xl font-bold text-center">About Me 🙋‍♂️</h2>
       <div className="max-w-3xl mx-auto">
         <p className="mb-4">
-          I&apos;m a passionate Machine Learning Engineer dedicated to pushing
-          the boundaries of artificial intelligence and its applications.
+          Hello! I'm Abu Bakar Siddik, a passionate Software Engineer 🤖
+          specializing in Machine Learning and Artificial Intelligence 🧠.
+          Currently serving as a Machine Learning Engineer at Sazim, I'm deeply
+          involved in developing state-of-the-art AI solutions that empower
+          businesses and individuals alike 💻. My expertise lies in developing
+          and deploying applications powered by large language models (LLMs),
+          designing intelligent APIs, and building scalable, reliable software
+          solutions 🚀.
         </p>
         <p className="mb-4">
-          Currently serving as a Machine Learning Engineer at Sazim, I&apos;m
-          deeply involved in developing state-of-the-art AI solutions that
-          empower businesses and individuals alike. I thrive in dynamic
-          environments where collaboration and innovation converge to create
-          meaningful change.
+          From creating multilingual chatbots and generative AI solutions to
+          contributing to impactful research in healthcare technology, my
+          journey has been fueled by a curiosity to solve complex problems 🤔.
+          Whether it's crafting CI/CD pipelines, working with stable diffusion
+          models, training ML or computer vision models for specific business
+          needs or optimizing data-driven systems, I take pride in producing
+          clean, maintainable code that meets real-world needs 💼.
         </p>
         <p>
-          My research interests span across Deep Learning, Machine Learning, and
-          Natural Language Processing (NLP), where I leverage cutting-edge
-          techniques to unravel insights and drive impactful outcomes. I
-          strongly believe that AI will assist us in resolving the world&aposs;
-          most critical and intricate problems.
+          Beyond work, I enjoy reading technical books 📚, watching football 🏈,
+          movies 🍿, and sometimes going fishing 🎣. If you're curious about my
+          projects or just want to chat, feel free to reach out! 📲
         </p>
       </div>
     </section>

@@ -7,7 +7,7 @@ export function Hero() {
         Abu Bakar Siddik
       </h1>
       <h2 className="mb-8 text-xl sm:text-2xl text-purple-800">
-        ML Engineer | Software Engineer | Researcher
+        ML Engineer | Software Developer | Researcher
       </h2>
       <p className="mb-8 max-w-2xl mx-auto text-base sm:text-lg text-gray-700 px-4">
         Building GenAI Applications That Amaze | Passionate about pushing the
