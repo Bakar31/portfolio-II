@@ -1,21 +1,6 @@
 import { Badge } from "@/components/ui/badge";
-
-const certifications = [
-  "Python [Kaggle]",
-  "Intermediate Python [Datacamp]",
-  "Divide and Conquer, Sorting Searching, Randomized Algorithms(Ongoing)[Coursera]",
-  "Data Visualization with Python [Coursera]",
-  "Machine Learning Explainability [Kaggle]",
-  "Neural Networks and Deep Learning [Coursera]",
-  "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization [Coursera]",
-  "Convolutional Neural Networks [Coursera]",
-  "Advanced Deep Learning with Keras [Datacamp]",
-  "Natural Language Processing [Coursera]",
-  "Natural Language Processing in TensorFlow [Coursera]",
-  "Introduction to Embedded Machine Learning [Coursera]",
-  "OpenCV 102 — Basic Image Processing Operations [PyImageSearch]",
-  "Object Detection 201 — Fundamentals of Deep Learning [PyImageSearch]",
-];
+import { ExternalLink } from "lucide-react";
+import { certifications } from "./constants";
 
 export function Certifications() {
   return (
@@ -24,8 +9,22 @@ export function Certifications() {
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-wrap justify-center gap-2">
           {certifications.map((cert, index) => (
-            <Badge key={index} variant="secondary" className="text-sm">
-              {cert}
+            <Badge
+              key={index}
+              variant="secondary"
+              className="text-sm flex items-center"
+            >
+              <span>
+                {cert.name} [{cert.platform}]
+              </span>
+              <a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-2 inline-flex items-center text-blue-600 hover:text-blue-800"
+              >
+                <ExternalLink className="h-4 w-4" />
+              </a>
             </Badge>
           ))}
         </div>

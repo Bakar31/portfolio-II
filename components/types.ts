@@ -15,3 +15,9 @@ export interface Publication {
   year: number;
   link?: string;
 }
+
+export interface Certification {
+  name: string;
+  link: string;
+  platform: string;
+}

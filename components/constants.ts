@@ -1,4 +1,4 @@
-import { Project, Publication } from "./types";
+import { Certification, Project, Publication } from "./types";
 
 export const projects: Project[] = [
   {
@@ -248,5 +248,73 @@ export const publications: Publication[] = [
     status: "Published",
     year: 2021,
     link: "https://arxiv.org/pdf/2412.02189",
+  },
+];
+
+export const certifications: Certification[] = [
+  {
+    name: "Python",
+    link: "https://www.kaggle.com/learn/certification/bakar31/python",
+    platform: "Kaggle",
+  },
+  {
+    name: "Intermediate Python",
+    link: "https://www.datacamp.com/statement-of-accomplishment/course/0d9a3a9024ecf0517b286ab588683d5cc790201f",
+    platform: "Datacamp",
+  },
+  {
+    name: "Data Visualization with Python",
+    link: "https://www.coursera.org/account/accomplishments/verify/6MH676QZCCVQ",
+    platform: "Coursera",
+  },
+  {
+    name: "Machine Learning Explainability",
+    link: "https://www.kaggle.com/learn/certification/bakar31/machine-learning-explainability",
+    platform: "Kaggle",
+  },
+  {
+    name: "Neural Networks and Deep Learning",
+    link: "https://www.coursera.org/account/accomplishments/verify/M69F96LLXARJ",
+    platform: "Coursera",
+  },
+  {
+    name: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    link: "https://www.coursera.org/account/accomplishments/verify/4N975NQ5ZCME",
+    platform: "Coursera",
+  },
+  {
+    name: "Convolutional Neural Networks",
+    link: "https://www.coursera.org/account/accomplishments/verify/98WPPPURWBZJ",
+    platform: "Coursera",
+  },
+  {
+    name: "Advanced Deep Learning with Keras",
+    link: "https://www.datacamp.com/statement-of-accomplishment/course/ff7d23bd4e6ca96f39e0040a9efea4516cf3409d",
+    platform: "Datacamp",
+  },
+  {
+    name: "Natural Language Processing",
+    link: "https://www.coursera.org/account/accomplishments/specialization/HZ826RMDGWZW",
+    platform: "Coursera",
+  },
+  {
+    name: "Natural Language Processing in TensorFlow",
+    link: "https://www.coursera.org/account/accomplishments/verify/FUZHMELKDPJB",
+    platform: "Coursera",
+  },
+  {
+    name: "Introduction to Embedded Machine Learning",
+    link: "https://www.coursera.org/account/accomplishments/certificate/HFAS5DWKH42X",
+    platform: "Coursera",
+  },
+  {
+    name: "OpenCV 102 — Basic Image Processing Operations",
+    link: "https://www.credential.net/41e4924b-1016-486c-b3a9-b0f981950751#gs.37fk0p",
+    platform: "PyImageSearch",
+  },
+  {
+    name: "Object Detection 201 — Fundamentals of Deep Learning Object Detection",
+    link: "https://www.credential.net/257546b5-6515-4c33-b8aa-6853ea384aa7#gs.37fjyt",
+    platform: "PyImageSearch",
   },
 ];
