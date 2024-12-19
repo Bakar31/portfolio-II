@@ -112,7 +112,7 @@ export function Experience() {
                   className="text-sm bg-white text-green-700 border-green-300 rounded-full mx-1"
                 >
                   {exp.type}
-                </Badge>{" "}
+                </Badge>
                 <Badge
                   variant="outline"
                   className="text-sm bg-white text-yellow-700 border-yellow-300 rounded-full ml-1"

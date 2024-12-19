@@ -82,7 +82,16 @@ export function Header() {
                 </Link>
               </li>
               <li>
-                <Button variant="outline" className="w-full">
+                <Button
+                  variant="outline"
+                  className="w-full"
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1kFYiBmmJiPitBoqm-rnLVQfaugMuIg-n/view?usp=sharing",
+                      "_blank"
+                    )
+                  }
+                >
                   Resume
                 </Button>
               </li>
