@@ -7,3 +7,11 @@ export interface Project {
   isPrivate: boolean;
   year?: number;
 }
+
+export interface Publication {
+  title: string;
+  journal: string;
+  status?: string;
+  year: number;
+  link?: string;
+}

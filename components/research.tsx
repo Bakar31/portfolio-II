@@ -1,55 +1,6 @@
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { ExternalLink } from "lucide-react";
-
-interface Publication {
-  title: string;
-  journal: string;
-  status: string;
-  year: number;
-  link?: string;
-}
-
-const publications: Publication[] = [
-  {
-    title:
-      "Real-time Patient Monitoring System to Reduce Medical Error with the help of Database",
-    journal:
-      "IEEE, 4th International Conference on Electrical, Computer & Telecommunication Engineering (ICECTE)",
-    status: "Published",
-    year: 2022,
-    link: "https://ieeexplore.ieee.org/document/10076164",
-  },
-  {
-    title:
-      "Enhanced Ischemic Stroke Etiology Classification via ROI-driven Patch Extraction in Digital Pathology Images",
-    journal: "Journal Article",
-    status: "Pre Review",
-    year: 2024,
-  },
-  {
-    title:
-      "Unraveling the Enigmatic Frontier: Deciphering Distinction Between AI-Generated and Real Images",
-    journal:
-      "IEEE, 6th International Conference on Electrical Engineering and Information Communication Technology (ICEEICT)",
-    status: "Published",
-    year: 2024,
-    link: "https://ieeexplore.ieee.org/document/10411644",
-  },
-  {
-    title:
-      "Deep Learning and Natural Language Processing in Neuroradiology: Towards Next Generation Cutting Edge Technology Healthcare",
-    journal: "Heliyon (Q1)",
-    status: "Under Review",
-    year: 2023,
-  },
-  {
-    title:
-      "An Epitomized Machine Learning Approach for Early Identification of Genetic Disorder Categories and Particular Disorders",
-    journal: "Applied Intelligence (Q2)",
-    status: "Under Review",
-    year: 2024,
-  },
-];
+import { publications } from "./constants";
 
 // const ongoingResearch = [
 //   "Exploring advanced techniques in medical image analysis using deep learning",
