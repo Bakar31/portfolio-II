@@ -12,7 +12,7 @@ export function Research() {
   return (
     <section
       id="research"
-      className="py-20 bg-gradient-to-r from-gray-50 to-gray-100"
+      className="py-20 mt-6 bg-gradient-to-r from-gray-50 to-gray-100"
     >
       <h2 className="mb-8 text-3xl font-bold text-center text-gray-800">
         Research
