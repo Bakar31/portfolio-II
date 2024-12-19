@@ -26,8 +26,9 @@ export function Projects() {
   return (
     <section id="projects" className="py-4 bg-white">
       <h2 className="mb-8 text-3xl font-bold text-center text-gray-800">
-        Projects
+        Projects 🚀
       </h2>
+
       <Tabs defaultValue="software" className="max-w-5xl mx-auto">
         <TabsList className="flex flex-wrap justify-center gap-2 mb-4">
           {categories.map((category) => (

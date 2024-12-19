@@ -52,7 +52,8 @@ const educationData: Education[] = [
 export function Education() {
   return (
     <section id="education" className="py-20 bg-gray-50">
-      <h2 className="mb-8 text-3xl font-bold text-center">Education</h2>
+      <h2 className="mb-8 text-3xl font-bold text-center">Education 🎓</h2>
+
       <div className="max-w-5xl mx-auto space-y-6">
         {educationData.map((edu, index) => (
           <Card key={index}>

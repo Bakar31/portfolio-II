@@ -14,15 +14,19 @@ export function Hero() {
         boundaries of AI and its applications
       </p>
       <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 px-4">
-        <Button className="bg-blue-600 hover:bg-blue-700 w-full sm:w-auto">
-          View Projects
-        </Button>
-        <Button
-          variant="outline"
-          className="text-purple-600 border-purple-600 hover:bg-purple-100 w-full sm:w-auto"
-        >
-          Contact Me
-        </Button>
+        <a href="#projects">
+          <Button className="bg-blue-600 hover:bg-blue-700 w-full sm:w-auto">
+            View Projects
+          </Button>
+        </a>
+        <a href="#contact">
+          <Button
+            variant="outline"
+            className="text-purple-600 border-purple-600 hover:bg-purple-100 w-full sm:w-auto"
+          >
+            Contact Me
+          </Button>
+        </a>
       </div>
     </section>
   );

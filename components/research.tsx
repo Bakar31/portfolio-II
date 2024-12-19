@@ -20,7 +20,9 @@ export function Research() {
       <div className="max-w-4xl mx-auto space-y-8">
         <Card className="bg-white/50 backdrop-blur-sm">
           <CardHeader>
-            <CardTitle className="text-gray-800">Research Statement</CardTitle>
+            <CardTitle className="text-gray-800">
+              Research Statement 📑
+            </CardTitle>
           </CardHeader>
           <CardContent>
             <p className="text-sm text-gray-700">
@@ -51,7 +53,7 @@ export function Research() {
 
         <Card className="bg-white/50 backdrop-blur-sm">
           <CardHeader>
-            <CardTitle className="text-gray-800">Publications</CardTitle>
+            <CardTitle className="text-gray-800">Publications 📚</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="space-y-4">

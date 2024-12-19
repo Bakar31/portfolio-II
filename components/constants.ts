@@ -1,4 +1,10 @@
-import { Certification, Project, Publication } from "./types";
+import {
+  Certification,
+  Project,
+  Publication,
+  SkillCategory,
+  VolunteerExperience,
+} from "./types";
 
 export const projects: Project[] = [
   {
@@ -316,5 +322,70 @@ export const certifications: Certification[] = [
     name: "Object Detection 201 — Fundamentals of Deep Learning Object Detection",
     link: "https://www.credential.net/257546b5-6515-4c33-b8aa-6853ea384aa7#gs.37fjyt",
     platform: "PyImageSearch",
+  },
+];
+
+export const skillCategories: SkillCategory[] = [
+  {
+    title: "Software Development",
+    skills: [
+      "Full-stack development",
+      "Agile methodologies",
+      "CI/CD",
+      "RESTful API design",
+      "System Design",
+    ],
+  },
+  {
+    title: "Machine Learning & AI",
+    skills: [
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "Deep Learning",
+      "NLP",
+      "Large Language Models",
+      "RAG",
+      "Computer Vision",
+      "ASR",
+      "Model Evaluation",
+      "Model Optimization",
+    ],
+  },
+  {
+    title: "Programming Languages",
+    skills: ["Python", "TypeScript"],
+  },
+  {
+    title: "Frameworks & Libraries",
+    skills: ["React.js", "Next.js", "NestJS", "FastAPI", "Express.js"],
+  },
+  {
+    title: "Libraries (Python)",
+    skills: ["TensorFlow", "PyTorch"],
+  },
+  {
+    title: "Cloud Platforms & DevOps",
+    skills: ["AWS", "GCP", "Docker", "GitHub Actions"],
+  },
+  {
+    title: "Databases & Tools",
+    skills: ["PostgreSQL", "Git"],
+  },
+];
+
+export const volunteerExperiences: VolunteerExperience[] = [
+  {
+    title: "Technical Secretary",
+    organization: "Robotics Society of RUET (RSR)",
+    duration: "Feb 2019 - Present",
+    description:
+      "RSR is a place for robotics and automation students, enthusiasts hobbyists from RUET.",
+  },
+  {
+    title: "Organizer",
+    organization: "Robotronics 2.0",
+    duration: "29-30 June, 2022",
+    description:
+      "The second edition of the Robotronics event, organized by Dept. MTE, RUET.",
   },
 ];

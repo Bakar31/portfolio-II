@@ -5,7 +5,7 @@ import { certifications } from "./constants";
 export function Certifications() {
   return (
     <section id="certifications" className="py-20">
-      <h2 className="mb-8 text-3xl font-bold text-center">Certifications</h2>
+      <h2 className="mb-8 text-3xl font-bold text-center">Certifications 📜</h2>
       <div className="max-w-4xl mx-auto">
         <div className="flex flex-wrap justify-center gap-2">
           {certifications.map((cert, index) => (

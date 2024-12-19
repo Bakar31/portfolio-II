@@ -21,3 +21,15 @@ export interface Certification {
   link: string;
   platform: string;
 }
+
+export interface SkillCategory {
+  title: string;
+  skills: string[];
+}
+
+export interface VolunteerExperience {
+  title: string;
+  organization: string;
+  duration: string;
+  description: string;
+}
